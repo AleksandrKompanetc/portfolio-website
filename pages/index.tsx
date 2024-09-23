@@ -1,8 +1,13 @@
 import React from 'react'
+import Nav from '@/Components/Nav'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className='overflow-x-hidden'>
+      <div>
+        <Nav />
+      </div>
+    </div>
   )
 }
 
