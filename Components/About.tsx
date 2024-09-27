@@ -1,5 +1,6 @@
 import React from 'react'
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -27,8 +28,17 @@ const About = () => {
               <ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
             </button>
         </div>
-        <div>
-          <Image />
+        <div className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
+          <Image 
+            src='/images/men4.jpg' 
+            alt='user' 
+            layout='fill' 
+            objectFit='contain' 
+            className='relative z-[11] w-[100%] h-[100%] object-contain' 
+          />
+          <div className='absolute w-[100%] h-[100%] z-[10] bg-[#55e6a5] top-[-2rem] right-[-2rem]'>
+
+          </div>
         </div>
       </div>
     </div>
