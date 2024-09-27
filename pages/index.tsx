@@ -4,6 +4,7 @@ import MobileNav from '@/Components/MobileNav';
 import Hero from '@/Components/Hero';
 import About from '@/Components/About';
 import Services from '@/Components/Services';
+import Skills from '@/Components/Skills';
 
 const HomePage = () => {
   const [nav, setNav] = useState(false)
@@ -21,6 +22,7 @@ const HomePage = () => {
         <div className='relative z-[30]'>
           <About />
           <Services />
+          <Skills />
         </div>
       </div>
     </div>
