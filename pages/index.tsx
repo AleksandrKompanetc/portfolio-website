@@ -1,7 +1,8 @@
-import React, {useState} from 'react'
-import Nav from '@/Components/Nav'
-import MobileNav from '@/Components/MobileNav'
-import Hero from '@/Components/Hero'
+import React, {useState} from 'react';
+import Nav from '@/Components/Nav';
+import MobileNav from '@/Components/MobileNav';
+import Hero from '@/Components/Hero';
+import About from '@/Components/About';
 
 const HomePage = () => {
   const [nav, setNav] = useState(false)
@@ -16,6 +17,9 @@ const HomePage = () => {
         <Nav openNav={openNav} />
         {/* Hero */}
         <Hero />
+        <div className='relative z-[30]'>
+          <About />
+        </div>
       </div>
     </div>
   )
