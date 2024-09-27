@@ -34,7 +34,7 @@ const Projects = () => {
           <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 
           relative w-[100%] h-[200px] md:h-[300px]'>
             <Image 
-              src='/images/project2.jfif' 
+              src='/images/project3.jpg' 
               alt='portfolio' 
               layout='fill' 
               className='object-contain' 
@@ -45,7 +45,7 @@ const Projects = () => {
           <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 
           relative w-[100%] h-[200px] md:h-[300px]'>
             <Image 
-              src='/images/project.jpg' 
+              src='/images/project5.jpg' 
               alt='portfolio' 
               layout='fill' 
               className='object-contain' 
@@ -56,7 +56,7 @@ const Projects = () => {
           <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 
           relative w-[100%] h-[200px] md:h-[300px]'>
             <Image 
-              src='/images/project.jpg' 
+              src='/images/project8.jpg' 
               alt='portfolio' 
               layout='fill' 
               className='object-contain' 
@@ -67,7 +67,7 @@ const Projects = () => {
           <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 
           relative w-[100%] h-[200px] md:h-[300px]'>
             <Image 
-              src='/images/project.jpg' 
+              src='/images/project9.jpg' 
               alt='portfolio' 
               layout='fill' 
               className='object-contain' 
