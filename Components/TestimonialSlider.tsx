@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import ClientReview from './ClientReview';
 
 const responsive = {
   desktop: {
@@ -32,11 +33,27 @@ const TestimonialSlider = () => {
       responsive={responsive}
       itemClass='item'
     >
-  <div>Item 1</div>
-  <div>Item 2</div>
-  <div>Item 3</div>
-  <div>Item 4</div>
-</Carousel>;
+    <ClientReview 
+      image='' 
+      name='Aleksandr' 
+      role='Web Developer' 
+    />
+    <ClientReview 
+      image='' 
+      name='Talukder' 
+      role='Mern Stack Developer' 
+    />
+    <ClientReview 
+      image='' 
+      name='Anas' 
+      role='React Developer' 
+    />
+    <ClientReview 
+      image='' 
+      name='Rakibul Anas' 
+      role='Next Js Developer' 
+    />
+</Carousel>
   )
 }
 
