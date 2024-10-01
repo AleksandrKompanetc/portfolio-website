@@ -9,6 +9,7 @@ const Testimonial = () => {
       </h1>
       <div className='pt-[5rem] pb-[4rem] w-[80%] mx-auto'>
         <TestimonialSlider />
+        
       </div>
     </div>
   )
